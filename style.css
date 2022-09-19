@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+* {
+  background-color: black;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.mycanvas {
+  display: block;
+  margin: 0 auto;
+  background-image: url(./Images/GalaxyImg.jpeg);
+  background-size: 100% 100%;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(161, 104, 161);
+  font-family: "Press Start 2P", cursive;
+}
+
+.playbtn {
+  padding: 10px 30px 10px 30px;
+  background-color: rgb(101, 126, 178);
+  color: white;
+  font-size: 20px;
+}
+
+.playbtn:hover{
+    background-color: rgb(30, 50, 101);
+}
+
+
+.bottompg{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
