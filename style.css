@@ -1,28 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 * {
   background-color: black;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Share Tech Mono", monospace;
 }
 
 .mycanvas {
   display: block;
   margin: 0 auto;
-  background-image: url(./images/GalaxyImg2.jpeg);
+  background-image: url(./assets/GalaxyImg2.png);
   animation: scroll 5s linear infinite;
   background-size: 100% 100%;
 }
 
 @keyframes scroll {
-    from {
-        background-position-y: 0px;
-    }
-    to {
-        background-position-y: 800px;
-    }
+  from {
+    background-position-y: 0px;
+  }
+  to {
+    background-position-y: 800px;
+  }
 }
 
 h1 {
@@ -38,13 +37,12 @@ h1 {
   font-size: 20px;
 }
 
-.playbtn:hover{
-    background-color: rgb(30, 50, 101);
+.playbtn:hover {
+  background-color: rgb(30, 50, 101);
 }
 
-
-.bottompg{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+.bottompg {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
