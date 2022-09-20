@@ -10,7 +10,7 @@
 .mycanvas {
   display: block;
   margin: 0 auto;
-  background-image: url(./assets/GalaxyImg2.png);
+  background-image: url(./assets/GalaxyImg2.jpeg);
   animation: scroll 5s linear infinite;
   background-size: 100% 100%;
 }
