@@ -11,8 +11,18 @@
 .mycanvas {
   display: block;
   margin: 0 auto;
-  background-image: url(./Images/GalaxyImg.jpeg);
+  background-image: url(./images/GalaxyImg2.jpeg);
+  animation: scroll 5s linear infinite;
   background-size: 100% 100%;
+}
+
+@keyframes scroll {
+    from {
+        background-position-y: 0px;
+    }
+    to {
+        background-position-y: 800px;
+    }
 }
 
 h1 {
