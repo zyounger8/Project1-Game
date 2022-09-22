@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"); */
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap');
+ 
 * {
   background-color: black;
   font-family: "Share Tech Mono", monospace;
